@@ -8,11 +8,6 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import UserCreationForm
 
-rooms = [
-    {'id': 1, 'name': 'Learn python!'},
-    {'id': 2, 'name': 'Backend'},
-    {'id': 3, 'name': 'Our Discord!'},
-]
 
 def loginPage(request):
 
